@@ -1,30 +1,11 @@
 from setuptools import find_packages, setup
 
 VERSION = "2.0.4"
-LONG_DESCRPTION = """
-    ==============
-    Artek EventLog
-    ==============
-    
-    \
-    ``artek-eventlog`` provides an easy and clean interface for logging diagnostic
-    as well as business intelligence data about activity that occurs in your site.
-    Supported Django and Python Versions
-    ------------------------------------
-    +-----------------+-----+-----+-----+-----+
-    | Django / Python | 2.7 | 3.4 | 3.5 | 3.6 |
-    +=================+=====+=====+=====+=====+
-    | 1.11            |  *  |  *  |  *  |  *  |
-    +-----------------+-----+-----+-----+-----+
-    | 2.0             |     |  *  |  *  |  *  |
-    +-----------------+-----+-----+-----+-----+
-"""
 setup(
     auhor="AHDCreative",
     author_email="hello@ahd-creative.com",
     description="an event logger for Django projects",
     name="artek-eventlog",
-    long_description=LONG_DESCRPTION,
     version=VERSION,
     url="http://github.com/AHDCreative/artek-eventlog/",
     license="MIT",
